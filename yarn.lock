@@ -983,6 +983,11 @@
   dependencies:
     "csstype" "^2.6.4"
 
+"@types/webpack-env@^1.16.2":
+  "integrity" "sha512-vKx7WNQNZDyJveYcHAm9ZxhqSGLYwoyLhrHjLBOkw3a7cT76sTdjgtwyijhk1MaHyRIuSztcVwrUOO/NEu68Dw=="
+  "resolved" "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.16.2.tgz"
+  "version" "1.16.2"
+
 "@types/ws@^7.4.0":
   "integrity" "sha512-Y29uQ3Uy+58bZrFLhX36hcI3Np37nqWE7ky5tjiDoy1GDZnIwVxS0CgF+s+1bXMzjKBFy+fqaRfb708iNzdinw=="
   "resolved" "https://registry.npmjs.org/@types/ws/-/ws-7.4.0.tgz"
