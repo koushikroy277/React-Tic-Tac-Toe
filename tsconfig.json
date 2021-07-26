@@ -1,18 +1,24 @@
 {
-  "include": ["src", "types"],
+  "include": [
+    "src",
+    "types"
+  ],
   "compilerOptions": {
+    "types": [
+      "node"
+    ],
     "module": "esnext",
     "target": "esnext",
     "moduleResolution": "node",
     "jsx": "preserve",
     "baseUrl": "./",
-    /* paths - If you configure Snowpack import aliases, add them here. */
     "paths": {
-      "~/*": ["src/*"]
+      "~/*": [
+        "src/*"
+      ]
     },
-    /* noEmit - Snowpack builds (emits) files, not tsc. */
+    "noImplicitAny": true,
     "noEmit": true,
-    /* Additional Options */
     "strict": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
